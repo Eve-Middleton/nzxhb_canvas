@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+   
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "html2canvas": "^1.4.1",
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -27,8 +29,8 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "plugin:vue/essential"
+      
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser"
