@@ -100,8 +100,11 @@ export default {
   min-height: 300px !important;
   background-image: url(./assets/bjt.jpg);
   background-size: 100%;
-  font-size: 18px;
-  line-height: 25px;
+}
+
+.content {
+  font-size: 18px !important;
+  line-height: 25px !important;
 }
 #chat {
   width: 500px;
